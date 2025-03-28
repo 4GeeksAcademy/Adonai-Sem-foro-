@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semáforo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <div id="trafficTop"></div>
+        <div id="lights">
+            <div class="red light glow" onclick="setLight('red')"></div>
+            <div class="yellow light" onclick="setLight('yellow')"></div>
+            <div class="green light" onclick="setLight('green')"></div>
+        </div>
+        <button onclick="toggleColor()">Alternar Color</button>
+        <button onclick="addPurpleLight()">Agregar Luz Púrpura</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
